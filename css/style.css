@@ -246,7 +246,12 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 330px;
   height: 330px;
   border-radius: 50%;
-  border: 6px solid pink;
+  border: 6px solid #DD356E;
+}
+
+#homeContent {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 992px) {
