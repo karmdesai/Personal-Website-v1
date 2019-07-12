@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-nav {
   background: #fff;
+  padding-bottom: 2.5%;
 }
 .fh5co-nav .top-menu {
   padding-top: 28px;
@@ -254,7 +255,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #homeContent {
-  padding-bottom: 30px;
+  padding-bottom: 108px;
   padding-top: 30px;
 }
 
