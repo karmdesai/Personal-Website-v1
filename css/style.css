@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #mainTitle {
   color: #fff !important;
+  font-weight: 900 !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -266,6 +267,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #homeContent {
   padding-bottom: 40px;
   padding-top: 30px;
+  background: #0d2428;
 }
 
 @media screen and (max-width: 992px) {
