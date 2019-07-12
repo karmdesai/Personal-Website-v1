@@ -109,8 +109,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .profilePicture {
-  padding-top: 50px;
+  padding-top: 70px;
 }
+
+#mainTitle {
+  color: #fff !important;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
     display: none;
@@ -259,7 +264,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #homeContent {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   padding-top: 30px;
 }
 
