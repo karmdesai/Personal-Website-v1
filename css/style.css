@@ -1,13 +1,9 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+/*-----------------------*/
+/*----- CSS Styles -----*/
+/*---------------------*/
 
 body {
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
@@ -55,7 +51,6 @@ p {
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
   margin: 0 0 20px 0;
 }
 
@@ -92,18 +87,24 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 6px solid #DD356E;
 }
 
+.icon {
+  width: 10%;
+  height: 10%;
+  border-radius: 15%;
+}
+
+.github-icon {
+  border: 3px solid #DD356E;
+}
+
 #mainTitle {
   color: #fff !important;
-  font-weight: 900 !important;
+  font-weight: bolder !important;
 }
 
 #homeContent {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   padding-top: 30px;
-}
-
-#titleContent {
-  background: #0d2428;
 }
 
 /* End My CSS */
