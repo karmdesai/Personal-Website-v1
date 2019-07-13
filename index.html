@@ -26,8 +26,7 @@
 
 	<!-- Vanta JS -->
 	<script src="js/three.r92.min.js"></script>
-	<script src="js/p5.min.js"></script>
-	<script src="js/vanta.topology.min.js"></script>
+	<script src="js/vanta.net.min.js"></script>
 
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -84,12 +83,14 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	<!-- Load The Topology Animation --> 
+	<!-- Load The Net Animation --> 
 	<script>
-		VANTA.TOPOLOGY (
+		VANTA.NET (
 			{
 				el: "#page",
-				color: 0x5073b8
+				color: 0x5073b8,
+				points: 15.00,
+ 				spacing: 20.00
 			}
 		)
 	</script>
