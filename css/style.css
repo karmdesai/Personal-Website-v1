@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 6px solid #DD356E;
 }
 
+.rightPadding {
+  padding-right: 5%;
+}
+
 .icon {
   width: 10%;
   height: 10%;
@@ -95,6 +99,16 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .github-icon {
   border: 3px solid #DD356E;
+  padding-left: none;
+}
+
+.linkedin-icon {
+  border: 3px solid #5073b8;
+}
+
+.mail-icon {
+  border: 3px solid #07b39b;
+  padding-right: none;
 }
 
 #mainTitle {
@@ -106,7 +120,6 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 10px;
   padding-top: 30px;
 }
-
 /* End My CSS */
 
 #fh5co-header .display-tc,
