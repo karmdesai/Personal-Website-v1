@@ -245,8 +245,8 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 
   .myAvatar {
-    width: 35vh;
-    height: 35vh;
+    width: 37vh;
+    height: 37vh;
   }
 
   .icon {
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #mainTitle {
     color: #fff !important;
     font-weight: bolder !important;
-    font-size: 4.5vh !important;
+    font-size: 6vh !important;
   }
 
   #homeContent {
