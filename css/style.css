@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loaderOne.gif) center no-repeat #fff;
+  background: url(../images/loaderTwo.gif) center no-repeat #fff;
 }
 
 .secondaryColor {
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .profilePicture {
-  padding-top: 5.5vh;
+  padding-top: 0.5vh;
 }
 
 .myAvatar {
