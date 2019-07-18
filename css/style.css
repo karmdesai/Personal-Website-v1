@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loaderOne.gif) center no-repeat #fff;
+  background: url(../images/loaderTwo.gif) center no-repeat #fff;
 }
 
 .secondaryColor {
@@ -241,17 +241,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
   /* Mobile Custom CSS */
   .profilePicture {
-    padding-top: 8vh;
+    padding-top: 6.5vh;
   }
 
   .myAvatar {
-    width: 42.5vh;
-    height: 42.5vh;
+    width: 30vh;
+    height: 30vh;
   }
 
   .icon {
-    width: 10.5vh;
-    height: 10.5vh;
+    width: 10vh;
+    height: 10vh;
   }
 
   .github-icon {
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #mainTitle {
     color: #fff !important;
     font-weight: bolder !important;
-    font-size: 6.5vh !important;
+    font-size: 3.5vh !important;
   }
 
   #homeContent {
