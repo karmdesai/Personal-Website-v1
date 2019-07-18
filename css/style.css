@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
   /* Mobile Custom CSS */
   .profilePicture {
-    padding-top: 0.4vh;
+    padding-top: 0.1vh;
   }
 
   .myAvatar {
@@ -255,16 +255,16 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 
   .github-icon {
-    border: 0.2vh solid #DD356E;
+    border: 0.6vh solid #DD356E;
     padding-left: none;
   }
 
   .linkedin-icon {
-    border: 0.2vh solid #5073b8;
+    border: 0.6vh solid #5073b8;
   }
 
   .mail-icon {
-    border: 0.2vh solid #07b39b;
+    border: 0.6vh solid #07b39b;
     padding-right: none;
   }
 
