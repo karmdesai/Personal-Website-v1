@@ -119,6 +119,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #homeContent {
   padding-top: 4.7vh;
 }
+
+.display-tc {
+  height: 100vh;
+  width: 95vw;
+}
 /* End Custom CSS */
 
 #fh5co-header .display-tc,
