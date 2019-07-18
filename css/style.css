@@ -9,9 +9,8 @@ body {
 }
 
 #page {
-  overflow-y: scroll;
+  position: absolute;
   overflow-x: hidden;
-  position: fixed;
   width: 100%;
   height: 100%;
   -webkit-transition: 0.5s;
@@ -33,7 +32,7 @@ body {
 }
 
 a {
-  color: #DD356E;
+  color: #5073B8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -57,35 +56,35 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #DD356E;
+  background: #5073B8;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #DD356E;
+  background: #5073B8;
 }
 
 ::selection {
   color: #fff;
-  background: #DD356E;
+  background: #5073B8;
 }
 
-/* My CSS */
+/* Custom CSS */
 .secondaryColor {
-  color: #DD356E;
+  color: #5073B8;
   font-weight: bold;
 }
 
 .profilePicture {
-  padding-top: 70px;
+  padding-top: 10vh;
 }
 
 .myAvatar {
   vertical-align: middle;
-  width: 330px;
-  height: 330px;
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
-  border: 6px solid #5073b8;
+  border: 0.95vh solid #5073b8;
 }
 
 .rightPadding {
@@ -93,22 +92,22 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .icon {
-  width: 10%;
-  height: 10%;
+  width: 5.5vw;
+  height: 5.5vw;
   border-radius: 15%;
 }
 
 .github-icon {
-  border: 3px solid #DD356E;
+  border: 0.5vh solid #DD356E;
   padding-left: none;
 }
 
 .linkedin-icon {
-  border: 3px solid #5073b8;
+  border: 0.5vh solid #5073b8;
 }
 
 .mail-icon {
-  border: 3px solid #07b39b;
+  border: 0.5vh solid #07b39b;
   padding-right: none;
 }
 
@@ -118,10 +117,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #homeContent {
-  padding-bottom: 10px;
-  padding-top: 30px;
+  padding-top: 4.7vh;
 }
-/* End My CSS */
+/* End Custom CSS */
 
 #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
@@ -157,10 +155,45 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0 auto;
   }
 
+  /* Custom CSS */
   .myAvatar {
-    width: 150px;
-    height: 150px;
+    width: 42.5vh;
+    height: 42.5vh;
   }
+
+  .icon {
+    width: 10.5vh;
+    height: 10.5vh;
+  }
+
+  .github-icon {
+    border: 0.5vw solid #DD356E;
+    padding-left: none;
+  }
+
+  .linkedin-icon {
+    border: 0.5vw solid #5073b8;
+  }
+
+  .mail-icon {
+    border: 0.5vw solid #07b39b;
+    padding-right: none;
+  }
+
+  #mainTitle {
+    color: #fff !important;
+    font-weight: bolder !important;
+    font-size: 5.5vh !important;
+  }
+
+  #homeContent {
+    padding-top: 4.7vh;
+  }
+
+  .iconSpace {
+    padding-top: 2.75vh;
+  }
+  /* End Custom CSS */
 }
 
 #fh5co-header .display-tc h2,
@@ -200,7 +233,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-header .display-tc .btn.btn-demo,
 .fh5co-cover .display-tc .btn.btn-demo {
-  background: #dd356e;
+  background: #5073B8;
   border: none;
 }
 
@@ -213,7 +246,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #DD356E !important;
+  background: #5073B8 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -232,47 +265,6 @@ h1, h2, h3, h4, h5, h6, figure {
   border: none;
 }
 
-.gototop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.gototop.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.gototop a {
-  width: 50px;
-  height: 50px;
-  display: table;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  text-align: center;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-}
-
-.gototop a i {
-  height: 50px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.gototop a:hover, .gototop a:active, .gototop a:focus {
-  text-decoration: none;
-  outline: none;
-}
-
 .fh5co-loader {
   position: fixed;
   left: 0px;
@@ -286,5 +278,3 @@ h1, h2, h3, h4, h5, h6, figure {
 .js .animate-box {
   opacity: 0;
 }
-
-/*# sourceMappingURL=style.css.map */
