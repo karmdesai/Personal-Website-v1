@@ -193,7 +193,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape) 
 {
   .profilePicture {
-    padding-top: 8.5vh;
+    padding-top: 10vh;
   }
 
   .myAvatar {
@@ -202,8 +202,8 @@ and (orientation : landscape)
   }
 
   .icon {
-    width: 15vh;
-    height: 15vh;
+    width: 20vh;
+    height: 20vh;
   }
 
   #anIntroduction {
@@ -227,7 +227,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait) 
 {
   .profilePicture {
-    padding-top: 8.5vh;
+    padding-top: 10vh;
   }
 
   .myAvatar {
