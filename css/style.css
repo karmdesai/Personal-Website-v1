@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .profilePicture {
-  padding-top: 6vh;
+  padding-top: 5.5vh;
 }
 
 .myAvatar {
@@ -220,6 +220,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
   font-weight: bolder !important;
   font-size: 8vh !important;
+  font-family: "Montserrat" !important;
+}
+
+#anIntroduction {
+  color: #fff !important;
+  font-weight: bolder !important;
+  font-size: 6.5vh !important;
 }
 
 #homeContent {
@@ -271,7 +278,11 @@ h1, h2, h3, h4, h5, h6, figure {
   #mainTitle {
     color: #fff !important;
     font-weight: bolder !important;
-    font-size: 5vh !important;
+    font-size: 6vh !important;
+  }
+
+  #anIntroduction {
+    font-size: 3vh !important;
   }
 
   #homeContent {

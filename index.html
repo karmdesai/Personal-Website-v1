@@ -27,6 +27,9 @@
 		<script src="js/three.r92.min.js"></script>
 		<script src="js/vanta.net.min.js"></script>
 
+		<!-- TypeIt JS -->
+		<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
+
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
@@ -51,7 +54,9 @@
 								<!-- Content On The Home Page-->
 								<div id="homeContent">
 									<!-- Primary Title -->
-									<h1 id="mainTitle">Technology Enthusiast, Innovator, & Programmer.</h1>
+									<h1 id="mainTitle">Hi, I'm Karm!</h1>
+									<!-- Typed Introduction -->
+									<h3 id="anIntroduction"></h3>
 									<!-- Icons Section -->
 									<div class="iconSpace">
 										<span class="rightPadding">
@@ -97,5 +102,18 @@
  				spacing: 20.00
 			}
 		)
+	</script>
+
+	<!-- Load The TypeIt JS Animation -->
+	<script>
+		new TypeIt('#anIntroduction', 
+		{
+			strings: ['A Technology Enthusiast.', 'An Innovator.', 
+					'An Aspiring Programmer.', 'A ML Developer.'],
+			speed: 100,
+			nextStringDelay: 3000,
+			breakLines: false,
+			loop: true
+		}).go();
 	</script>
 </html>
