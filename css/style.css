@@ -33,40 +33,6 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* Offcanvas Class (Not Currently In Use */
-.offcanvas #page {
-  overflow: hidden;
-  position: absolute;
-}
-
-.offcanvas #page:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
-  content: "";
-}
-
-/* Links (Not Currently In Use) */
-a {
-  color: #DD356E;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-a:hover, a:active, a:focus {
-  color: #DD356E;
-  outline: none;
-  text-decoration: none;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
@@ -217,5 +183,105 @@ h1, h2, h3, h4, h5, h6, figure {
   .display-tc {
     height: 100vh;
     width: 95vw;
+  }
+}
+
+/* Separate Media Query For Landscape on iPads */
+@media screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) 
+{
+  .profilePicture {
+    padding-top: 8.5vh;
+  }
+
+  .myAvatar {
+    width: 39vh;
+    height: 39vh;
+  }
+
+  .icon {
+    width: 15vh;
+    height: 15vh;
+  }
+
+  #anIntroduction {
+    font-weight: normal !important;
+    font-size: 4vh !important;
+  }
+
+  #homeContent {
+    padding-top: 4.7vh;
+  }
+
+  .iconSpace {
+    padding-top: 2vh;
+  }
+}
+
+/* Separate Media Query For Portrait on iPads */
+@media screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+{
+  .profilePicture {
+    padding-top: 8.5vh;
+  }
+
+  .myAvatar {
+    width: 38vh;
+    height: 38vh;
+  }
+
+  .icon {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .github-icon {
+    border: 0.6vh solid #DD356E;
+    padding-left: none;
+  }
+
+  .linkedin-icon {
+    border: 0.6vh solid #5073b8;
+  }
+
+  .mail-icon {
+    border: 0.6vh solid #07b39b;
+    padding-right: none;
+  }
+
+  #mainTitle {
+    color: #fff !important;
+    font-weight: bolder !important;
+    font-size: 6vh !important;
+  }
+
+  #anIntroduction {
+    font-weight: normal !important;
+    font-size: 4.1vh !important;
+  }
+
+  #homeContent {
+    padding-top: 4.7vh;
+  }
+
+  .iconSpace {
+    padding-top: 2vh;
+  }
+}
+
+/* Separate Media Query For The iPhone X */
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) 
+{
+  #anIntroduction {
+    font-weight: normal !important;
+    font-size: 4vh !important;
   }
 }
